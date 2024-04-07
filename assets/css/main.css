@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  direction: rtl;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+.item .activeIcon {
+  @apply hidden;
+}
+
+.item.active .inactiveIcon {
+  @apply hidden;
+}
+
+.item.active .activeIcon {
+  @apply block;
+}
+
+.item:not(.active) .content {
+  @apply h-0 overflow-hidden py-0;
+}
+
+.item .content {
+  @apply p-8;
+}
