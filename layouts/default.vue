@@ -176,7 +176,7 @@
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 جزئیات تیم
                             </NuxtLink>
-                            <NuxtLink to="/"
+                            <NuxtLink to="/contact"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 ارتباط با ما
                             </NuxtLink>
