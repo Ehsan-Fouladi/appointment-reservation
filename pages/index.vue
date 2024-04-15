@@ -5,10 +5,10 @@
         <img src="/img/bg-light-2.png" alt="banner background" draggable="false">
       </div>
       <div class="lg:w-1/2 lg:mr-20 mr-5 mt-16 lg:mt-0">
-        <span class="font-medium text-balance text-3xl md:text-4xl lg:text-5xl">
+        <span class="font-medium text-balance text-3xl md:text-4xl lg:text-5xl !leading-[4rem]">
           ما گوش می دهیم، مراقبت می کنیم، ما شفا می دهیم.
         </span>
-        <p class="text-balance font-medium text-gray-500 inline-block mt-6">
+        <p class="text-balance font-medium text-gray-500 inline-block mt-4">
           Lorem ipsum dolor sit amet consectetur. Massa mauris convallis in eget
           volutpat. Vitae nunc varius proin rhoncus cursus et nulla posuere. Eros.
         </p>
@@ -16,8 +16,9 @@
           <NuxtLink to="#"
             class="md:py-4 py-2 px-10 text-center font-semibold text-pretty border-2 hover:border-indigo-500 text-white transition-all duration-500 rounded-xl hover:text-indigo-500 bg-indigo-500 hover:bg-transparent">رزرو</NuxtLink>
           <NuxtLink to="#"
-            class="md:py-4 py-2 px-10 text-nowrap text-center font-semibold md:text-pretty border-2 border-indigo-500 text-indigo-500 transition-all duration-500 rounded-xl hover:text-white hover:bg-indigo-500">درباره
-            ما</NuxtLink>
+            class="md:py-4 py-2 px-10 text-nowrap text-center font-semibold md:text-pretty border-2 border-indigo-500 text-indigo-500 transition-all duration-500 rounded-xl hover:text-white hover:bg-indigo-500">
+            درباره ما
+          </NuxtLink>
         </div>
       </div>
       <div class="sm:w-96 md:w-1/2 h-auto mt-10 lg:mt-10 relative -z-50">
