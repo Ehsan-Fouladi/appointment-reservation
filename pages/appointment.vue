@@ -1,13 +1,13 @@
 <template>
    <section>
     <div class="w-full">
-        <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50" style="background-image: url(/img/bg-light-3.png);"></div>
+        <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50 bg-[url('img/bg-light-3.png')]"></div>
         <div class="flex flex-col items-center justify-center">
             <div class="mt-32">
                 <span class="text-5xl font-medium text-pretty">وقت ملاقات</span>
             </div>
             <div class="mt-20 lg:mt-32 w-full">
-                <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50 mt-96 hidden lg:block lg:mt-20" style="background-image: url(/img/blue-background-3.png);"></div>
+                <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50 mt-96 hidden lg:block lg:mt-20 bg-[url('img/blue-background-3.png')]"></div>
                 <div class="flex flex-col lg:flex-row justify-center items-center gap-7 w-full p-2">
                     <div class="w-full lg:w-2/5 bg-white/70 backdrop-blur-sm p-5 lg:mt-5 rounded-2xl bg-white lg:bg-none shadow-lg lg:shadow-none">
                         <span class="text-indigo-500 text-lg font-medium">ساعات کاری</span>

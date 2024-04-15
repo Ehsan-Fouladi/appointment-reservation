@@ -1,8 +1,7 @@
 <template>
   <section>
     <div class="w-full relative">
-      <div class="object-cover bg-cover bg-center w-full h-dvh absolute mx-auto -z-50"
-        style="background-image: url(/img/bg-light-3.png);">
+      <div class="object-cover bg-cover bg-center w-full h-dvh absolute mx-auto -z-50 bg-[url('img/bg-light-3.png')]">
       </div>
       <div class="flex flex-col items-center justify-center">
         <div class="mt-32">

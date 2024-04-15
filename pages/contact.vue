@@ -1,11 +1,9 @@
 <template>
   <section>
     <div class="w-full">
-      <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50"
-        style="background-image: url(/img/bg-light-3.png);"></div>
+      <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50 bg-[url('img/bg-light-3.png')]"></div>
       <div class="flex flex-col items-center justify-center">
-        <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50"
-          style="background-image: url(/img/blue-background-3.png);"></div>
+        <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50 bg-[url('img/blue-background-3.png')]"></div>
         <div class="mt-32">
           <span class="text-5xl font-medium text-pretty">ارتباط با ما</span>
         </div>
