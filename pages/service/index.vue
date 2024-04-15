@@ -1,8 +1,7 @@
 <template>
   <section>
     <div class="w-full">
-      <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50"
-        style="background-image: url(/img/bg-light-3.png);"></div>
+      <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50 bg-[url('img/bg-light-3.png')]"></div>
       <div class="flex flex-col items-center justify-center">
         <div class="mt-32">
           <span class="text-5xl font-medium text-pretty">خدمات</span>
@@ -11,7 +10,7 @@
           <div class="flex flex-col justify-center items-center lg:p-8">
             <div class="flex flex-wrap justify-center items-center lg:gap-x-20 lg:gap-y-10 gap-12 mt-20 lg:mt-8">
               <div
-                class="w-96 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
+                class="lg:w-96 w-11/12 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
                 <div class="-mt-10 space-y-4">
                   <span class="text-2xl font-medium text-pretty">خدمات داروسازی</span>
                   <p class="leading-6 font-medium text-blaance text-slate-500">Lorem ipsum dolor sit amet consect etur.
@@ -37,7 +36,7 @@
                 </div>
               </div>
               <div
-                class="w-96 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
+                class="lg:w-96 w-11/12 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
                 <div class="-mt-10 space-y-4">
                   <span class="text-2xl font-medium text-pretty">متخصص پزشکی</span>
                   <p class="leading-6 font-medium text-blaance text-slate-500">Lorem ipsum dolor sit amet consect etur.
@@ -63,7 +62,7 @@
                 </div>
               </div>
               <div
-                class="w-96 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
+                class="lg:w-96 w-11/12 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
                 <div class="-mt-10 space-y-4">
                   <span class="text-2xl font-medium text-pretty">چک آپ پزشکی</span>
                   <p class="leading-6 font-medium text-blaance text-slate-500">Lorem ipsum dolor sit amet consect etur.
@@ -89,7 +88,7 @@
                 </div>
               </div>
               <div
-                class="w-96 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
+                class="lg:w-96 w-11/12 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
                 <div class="-mt-10 space-y-4">
                   <span class="text-2xl font-medium text-pretty">مشاوره سلامت</span>
                   <p class="leading-6 font-medium text-blaance text-slate-500">Lorem ipsum dolor sit amet consect etur.
@@ -115,7 +114,7 @@
                 </div>
               </div>
               <div
-                class="w-96 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
+                class="lg:w-96 w-11/12 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
                 <div class="-mt-10 space-y-4">
                   <span class="text-2xl font-medium text-pretty">خدمات آمبولانس</span>
                   <p class="leading-6 font-medium text-blaance text-slate-500">Lorem ipsum dolor sit amet consect etur.
@@ -142,7 +141,7 @@
                 </div>
               </div>
               <div
-                class="w-96 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
+                class="lg:w-96 w-11/12 h-80 p-7 relative bg-sky-100 flex flex-col justify-center rounded-2xl rounded-tr-[9rem] shadow-lg shadow-slate-500 lg:hover:scale-110 hover:z-50 hover:shadow-indigo-400 duration-500">
                 <div class="-mt-10 space-y-4">
                   <span class="text-2xl font-medium text-pretty">راهنمایی ذهنی</span>
                   <p class="leading-6 font-medium text-blaance text-slate-500">Lorem ipsum dolor sit amet consect etur.
