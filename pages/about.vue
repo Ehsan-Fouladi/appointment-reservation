@@ -1,7 +1,7 @@
 <template>
     <section>
     <div class="w-full">
-        <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50" style="background-image: url(/img/bg-light-3.png);"></div>
+        <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50 bg-[url('img/bg-light-3.png')]"></div>
         <div class="flex flex-col items-center justify-center">
             <div class="mt-32">
                 <span class="text-5xl font-medium text-pretty">درباره ما</span>
@@ -18,11 +18,11 @@
                             Lorem ipsum dolor sit amet consectetur. Vestibulum elit eu vulputate tristique enim molestie neque. Ultricies arcu sed tempor integer. Nulla aliquet tellus vel dictum tempus.
                         </p>
                         <div class="flex flex-col md:flex-row md:items-center mt-4 gap-4">
-                            <div class="shadow-md shadow-slate-600 rounded-lg w-full sm:w-2/3 md:w-2/6 p-4" data-aos="zoom-in">
+                            <div class="shadow-md shadow-slate-600 rounded-lg w-full sm:w-2/3 md:w-2/5 p-4" data-aos="zoom-in">
                                 <span class="text-xl text-pretty font-semibold">دیدگاه ما</span>
                                 <p class="text-pretty mt-2 font-medium text-slate-400">Lorem ipsum dolor sit amet consect etur. Vestibulum elit eu vulputate tristique enim.</p>
                             </div>
-                            <div class="shadow-md shadow-slate-600 rounded-lg w-full sm:w-2/3 md:w-2/6 p-4" data-aos="zoom-in">
+                            <div class="shadow-md shadow-slate-600 rounded-lg w-full sm:w-2/3 md:w-2/5 p-4" data-aos="zoom-in">
                                 <span class="text-xl text-pretty font-semibold">ماموریت ما</span>
                                 <p class="text-pretty mt-2 font-medium text-slate-400">Lorem ipsum dolor sit amet consect etur. Vestibulum elit eu vulputate tristique enim.</p>
                             </div>
