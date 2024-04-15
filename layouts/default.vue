@@ -123,15 +123,21 @@
                         class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                         درباره ما
                     </NuxtLink>
-                    <li class="flex flex-col relative group">
-                        <div class="hover:text-indigo-500 duration-300 transition-all flex items-center gap-2">
-                            <NuxtLink to="#" class="block text-lg font-medium">سرویس ها</NuxtLink>
+                    <li class="flex flex-col">
+                        <div class="hover:text-indigo-500 duration-300 transition-all flex items-center gap-2" v-if="menuMobile" @click="clickMenuMobile">
+                            <span class="block text-lg font-medium">سرویس ها</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-5 mt-1">
+                                stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                             </svg>
                         </div>
-                        <div class="hidden flex-col w-52 right-0 p-2 rounded-lg space-y-5 group-hover:flex mt-2">
+                        <div class="hover:text-indigo-500 duration-300 transition-all flex items-center gap-2" v-else="menuMobile" @click="clickMenuMobile">
+                            <span class="block text-lg font-medium">سرویس ها</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                            </svg>
+                        </div>
+                        <div class="flex flex-col w-52 right-0 p-2 rounded-lg space-y-5 mt-2" v-show="!menuMobile" @click="clickMenuMobile">
                             <NuxtLink to="/service"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 سرویس</NuxtLink>
@@ -145,17 +151,25 @@
                             </NuxtLink>
                         </div>
                     </li>
-                    <li class="flex flex-col relative group">
-                        <div class="flex items-center hover:text-indigo-500 duration-300 transition-all gap-2">
-                            <NuxtLink to="#"
-                                class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all ">پیچ
-                            </NuxtLink>
+                    <li class="flex flex-col relative">
+                        <div class="flex items-center hover:text-indigo-500 duration-300 transition-all gap-2" v-if="menuMobile2" @click="clickMenuMobile2">
+                            <span class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
+                                پیچ
+                            </span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-5 mt-2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                             </svg>
                         </div>
-                        <div class="hidden flex-col w-52 right-0 p-2 rounded-lg space-y-5 group-hover:flex mt-2">
+                        <div class="flex items-center hover:text-indigo-500 duration-300 transition-all gap-2" v-else="menuMobile2" @click="clickMenuMobile2">
+                            <span class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
+                                پیچ
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                            </svg>
+                        </div>
+                        <div class="flex flex-col w-52 right-0 p-2 rounded-lg space-y-5 mt-2" v-show="!menuMobile2" @click="clickMenuMobile2">
                             <NuxtLink to="/blog"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 مقالات
@@ -281,5 +295,13 @@
 const menu = ref(true)
 function clickMenu() {
     menu.value = !menu.value
+}
+const menuMobile = ref(true)
+function clickMenuMobile() {
+    menuMobile.value = !menuMobile.value
+}
+const menuMobile2 = ref(true)
+function clickMenuMobile2() {
+    menuMobile2.value = !menuMobile2.value
 }
 </script>
