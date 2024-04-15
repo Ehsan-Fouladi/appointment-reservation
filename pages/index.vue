@@ -5,14 +5,14 @@
         <img src="/img/bg-light-2.png" alt="banner background" draggable="false">
       </div>
       <div class="lg:w-1/2 lg:mr-20 mr-5 mt-16 lg:mt-0">
-        <span class="font-medium text-balance text-3xl md:text-4xl lg:text-5xl !leading-[4rem]">
+        <span class="font-medium text-balance text-3xl md:text-4xl lg:text-5xl leading-relaxed lg:!leading-[4rem]">
           ما گوش می دهیم، مراقبت می کنیم، ما شفا می دهیم.
         </span>
         <p class="text-balance font-medium text-gray-500 inline-block mt-4">
           Lorem ipsum dolor sit amet consectetur. Massa mauris convallis in eget
           volutpat. Vitae nunc varius proin rhoncus cursus et nulla posuere. Eros.
         </p>
-        <div class="flex flex-row items-center gap-5 mt-10">
+        <div class="flex flex-row items-center gap-5 mt-8">
           <NuxtLink to="#"
             class="md:py-4 py-2 px-10 text-center font-semibold text-pretty border-2 hover:border-indigo-500 text-white transition-all duration-500 rounded-xl hover:text-indigo-500 bg-indigo-500 hover:bg-transparent">رزرو</NuxtLink>
           <NuxtLink to="#"
@@ -24,13 +24,13 @@
       <div class="sm:w-96 md:w-1/2 h-auto mt-10 lg:mt-10 relative -z-50">
         <img class="object-cover" src="/img/banner-image.png" alt="banner" draggable="false">
         <div
-          class="bg-white/70 backdrop-blur-md w-52 sm:px-4 px-2 sm:py-5 py-3 rounded-lg absolute md:bottom-44 sm:bottom-32 bottom-16 right-0 text-gray-900 flex items-center justify-center gap-2 text-base sm:text-lg font-medium sm:font-semibold">
+          class="bg-white/70 backdrop-blur-md w-52 sm:px-4 px-2 sm:py-5 py-3 rounded-lg absolute lg:bottom-44 sm:bottom-32 bottom-20 lg:-right-20 text-gray-900 flex items-center justify-center gap-2 text-base sm:text-lg font-medium">
           بهترین متخصصان
           <span class="text-xl sm:text-2xl font-medium text-sky-600">10</span>
         </div>
         <div
-          class="bg-white/70 backdrop-blur-md w-52 sm:w-60 sm:px-4 px-2 sm:py-5 py-3 rounded-lg absolute md:bottom-20 sm:bottom-10 bottom-3 right-0 text-gray-900 flex items-center justify-center gap-2 text-base sm:text-lg font-medium text-nowrap sm:mr-3">
-          بیماران شفا یافتند
+          class="bg-white/70 backdrop-blur-md w-52 sm:w-60 sm:px-4 px-2 sm:py-5 py-3 rounded-lg absolute lg:bottom-20 sm:bottom-10 bottom-5 right-5 sm:right-0 lg:-right-20 text-gray-900 flex items-center justify-center gap-2 text-base sm:text-lg font-medium text-nowrap">
+          بیماران درمان شده
           <span class="text-xl sm:text-2xl font-medium text-sky-600">250K</span>
         </div>
       </div>
