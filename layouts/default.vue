@@ -6,15 +6,15 @@
             </div>
             <div>
                 <ul class="hidden lg:flex flex-row flex-shrink items-center gap-10 select-none">
-                    <NuxtLink to="/"
+                    <NuxtLink to="/" active-class="router-active"
                         class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">خانه
                     </NuxtLink>
-                    <NuxtLink to="/about"
+                    <NuxtLink to="/about" active-class="router-active"
                         class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">درباره ما
                     </NuxtLink>
                     <li class="flex items-center relative group">
                         <div class="hover:text-indigo-500 duration-300 transition-all flex items-center gap-2">
-                            <NuxtLink to="#" class="block text-lg font-medium">سرویس ها</NuxtLink>
+                            <span class="block text-lg font-medium">سرویس ها</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-5 mt-1">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
@@ -22,15 +22,15 @@
                         </div>
                         <div
                             class="hidden flex-col z-50 flex-shrink-0 absolute w-52 right-0 top-7 bg-white/70 backdrop-blur-md shadow shadow-slate-400 p-4 rounded-lg space-y-5 group-hover:flex">
-                            <NuxtLink to="/service"
+                            <NuxtLink to="/service" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 سرویس
                             </NuxtLink>
-                            <NuxtLink to="/service/service_detail"
+                            <NuxtLink to="/service/service_detail" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 جزیات سرویس
                             </NuxtLink>
-                            <NuxtLink to="/appointment"
+                            <NuxtLink to="/appointment" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 رزرو
                             </NuxtLink>
@@ -38,54 +38,54 @@
                     </li>
                     <li class="flex items-center relative group">
                         <div class="flex items-center hover:text-indigo-500 duration-300 transition-all gap-2">
-                            <NuxtLink to="#"
+                            <span
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all ">
                                 صفحه ها
-                            </NuxtLink>
+                            </span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-5 mt-2">
+                                stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                             </svg>
                         </div>
                         <div
                             class="hidden flex-col flex-shrink-0 z-50 absolute bg-white/70 backdrop-blur-md w-52 right-0 top-7 shadow shadow-slate-400 p-4 rounded-lg space-y-5 group-hover:flex">
-                            <NuxtLink to="/blog"
+                            <NuxtLink to="/blog" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 مقالات
                             </NuxtLink>
-                            <NuxtLink to="/blog/blog_detail"
+                            <NuxtLink to="/blog/blog_detail" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 جزئیات مقالات
                             </NuxtLink>
-                            <NuxtLink to="/pricing"
+                            <NuxtLink to="/pricing" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 پنل قیمت
                             </NuxtLink>
-                            <NuxtLink to="/team"
+                            <NuxtLink to="/team" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 تیم
                             </NuxtLink>
-                            <NuxtLink to="/team/team_detail"
+                            <NuxtLink to="/team/team_detail" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 جزئیات تیم
                             </NuxtLink>
-                            <NuxtLink to="/contact"
+                            <NuxtLink to="/contact" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 ارتباط با ما
                             </NuxtLink>
-                            <NuxtLink to="/coming"
+                            <NuxtLink to="/coming" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 به زودی
                             </NuxtLink>
-                            <NuxtLink to="/faqs"
+                            <NuxtLink to="/faqs" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 قوانین
                             </NuxtLink>
-                            <NuxtLink to="/auth/register"
+                            <NuxtLink to="/auth/register" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 ثبت نام
                             </NuxtLink>
-                            <NuxtLink to="/auth/login"
+                            <NuxtLink to="/auth/login" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 ورود
                             </NuxtLink>
@@ -124,11 +124,11 @@
                 </div>
                 <div class="animate__animated animate__slideInDown absolute flex flex-col flex-shrink-0 p-4 sm:w-52 w-dvw top-10 left-0 rounded-lg space-y-5 shadow-xl bg-white/70 backdrop-blur-sm z-50"
                     @click="clickMenu" v-show="!menu">
-                    <NuxtLink to="/"
+                    <NuxtLink to="/" active-class="router-active"
                         class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                         خانه
                     </NuxtLink>
-                    <NuxtLink to="/about"
+                    <NuxtLink to="/about" active-class="router-active"
                         class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                         درباره ما
                     </NuxtLink>
@@ -147,14 +147,15 @@
                             </svg>
                         </div>
                         <div class="flex flex-col w-52 right-0 p-2 rounded-lg space-y-5 mt-2" v-show="!menuMobile" @click="clickMenuMobile">
-                            <NuxtLink to="/service"
+                            <NuxtLink to="/service" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
-                                سرویس</NuxtLink>
-                            <NuxtLink to="/service/service_detail"
+                                سرویس
+                            </NuxtLink>
+                            <NuxtLink to="/service/service_detail" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 جزیات سرویس
                             </NuxtLink>
-                            <NuxtLink to="/appointment"
+                            <NuxtLink to="/appointment" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 رزرو
                             </NuxtLink>
@@ -163,10 +164,10 @@
                     <li class="flex flex-col relative">
                         <div class="flex items-center hover:text-indigo-500 duration-300 transition-all gap-2" v-if="menuMobile2" @click="clickMenuMobile2">
                             <span class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
-                                پیچ
+                                صفحه ها
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-5 mt-2">
+                                stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                             </svg>
                         </div>
@@ -174,46 +175,50 @@
                             <span class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 صفحه ها
                             </span>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
                             </svg>
                         </div>
                         <div class="flex flex-col w-52 right-0 p-2 rounded-lg space-y-5 mt-2" v-show="!menuMobile2" @click="clickMenuMobile2">
-                            <NuxtLink to="/blog"
+                            <NuxtLink to="/blog" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 مقالات
                             </NuxtLink>
-                            <NuxtLink to="/blog/blog_detail"
+                            <NuxtLink to="/blog/blog_detail" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 جزئیات وبلاگ
                             </NuxtLink>
-                            <NuxtLink to="/pricing"
+                            <NuxtLink to="/pricing" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 پنل قیمت
                             </NuxtLink>
-                            <NuxtLink to="/team"
+                            <NuxtLink to="/team" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 تیم
                             </NuxtLink>
-                            <NuxtLink to="/team/team_detail"
+                            <NuxtLink to="/team/team_detail" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 جزئیات تیم
                             </NuxtLink>
-                            <NuxtLink to="/contact"
+                            <NuxtLink to="/contact" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 ارتباط با ما
                             </NuxtLink>
-                            <NuxtLink to="/coming"
+                            <NuxtLink to="/coming" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 به زودی
                             </NuxtLink>
-                            <NuxtLink to="/faqs"
+                            <NuxtLink to="/faqs" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 قوانین
                             </NuxtLink>
-                            <NuxtLink to="/auth/login"
+                            <NuxtLink to="/auth/login" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 ورود
+                            </NuxtLink>
+                            <NuxtLink to="/auth/register" active-class="router-active"
+                                class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
+                                ثبت نام
                             </NuxtLink>
                         </div>
                     </li>
@@ -318,3 +323,8 @@ function clickMenuMobile2() {
     menuMobile2.value = !menuMobile2.value
 }
 </script>
+<style scoped>
+.router-active{
+    @apply text-indigo-600 text-xl font-bold
+}
+</style>

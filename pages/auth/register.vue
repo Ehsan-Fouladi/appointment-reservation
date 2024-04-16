@@ -52,7 +52,7 @@
           </div>
           <div class="mt-5 flex flex-col justify-center items-center w-full space-y-4">
             <button class="bg-indigo-600 px-2 py-3 rounded-lg text-white w-full text-xl">ثبت نام</button>
-            <NuxtLink to="/auth/register" class="bg-pink-600 px-2 py-3 rounded-lg text-white w-full text-xl text-center">
+            <NuxtLink to="/auth/login" class="bg-pink-600 px-2 py-3 rounded-lg text-white w-full text-xl text-center">
               ورود به سایت
             </NuxtLink>
           </div>
