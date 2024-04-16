@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="w-full">
-      <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50 bg-[url('img/bg-light-3.png')]"></div>
+      <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50 bg-[url('@/assets/background/bg-light-3.png')]"></div>
       <div class="flex flex-col items-center justify-center">
         <div class="mt-32">
           <span class="text-5xl font-medium text-pretty">جزئیات خدمات</span>
@@ -100,7 +100,7 @@
               </div>
             </div>
           </div>
-          <div class="object-cover bg-no-repeat bg-cover absolute w-full h-dvh -z-50 bg-[url('img/blue-background.png')]"></div>
+          <div class="object-cover bg-no-repeat absolute w-full h-dvh -z-50 bg-[url('@/assets/background/blue-background.png')]"></div>
           <div class="mt-10 p-2 w-full flex flex-col lg:flex-row justify-center lg:justify-evenly items-center gap-6">
             <div class="w-full lg:w-2/5 p-5 lg:mt-5 rounded-2xl bg-white shadow-xl drop-shadow-lg">
               <span class="text-indigo-500 text-lg font-medium">وقت ملاقات</span>

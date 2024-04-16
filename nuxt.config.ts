@@ -9,6 +9,9 @@ export default defineNuxtConfig({
     "@/assets/font/IRanSans/css/style.css",
   ],
   modules: ["nuxt-aos"],
+  alias:{
+    assets: "/<rootDir>/assets"
+  },
   postcss: {
     plugins: {
       tailwindcss: {},

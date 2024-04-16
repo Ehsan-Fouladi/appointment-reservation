@@ -1,9 +1,9 @@
 <template>
   <section>
     <div class="w-full relative">
+      <div class="object-cover bg-cover bg-center w-full h-dvh absolute mx-auto bg-[url('@/assets/background/bg-light-3.png')]">
+      </div>
       <div class="flex flex-col items-center justify-center">
-        <div class="object-cover bg-cover bg-center w-full h-dvh absolute mx-auto bg-[url('img/bg-light-3.png')]">
-        </div>
         <div class="mt-32">
           <span class="text-5xl font-medium text-pretty">تیم</span>
         </div>
