@@ -39,7 +39,8 @@
                     <li class="flex items-center relative group">
                         <div class="flex items-center hover:text-indigo-500 duration-300 transition-all gap-2">
                             <NuxtLink to="#"
-                                class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all ">پیچ
+                                class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all ">
+                                صفحه ها
                             </NuxtLink>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-5 mt-2">
@@ -79,6 +80,14 @@
                             <NuxtLink to="/faqs"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 قوانین
+                            </NuxtLink>
+                            <NuxtLink to="/auth/register"
+                                class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
+                                ثبت نام
+                            </NuxtLink>
+                            <NuxtLink to="/auth/login"
+                                class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
+                                ورود
                             </NuxtLink>
                         </div>
                     </li>
@@ -163,7 +172,7 @@
                         </div>
                         <div class="flex items-center hover:text-indigo-500 duration-300 transition-all gap-2" v-else="menuMobile2" @click="clickMenuMobile2">
                             <span class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
-                                پیچ
+                                صفحه ها
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
@@ -201,6 +210,10 @@
                             <NuxtLink to="/faqs"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 قوانین
+                            </NuxtLink>
+                            <NuxtLink to="/auth/login"
+                                class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
+                                ورود
                             </NuxtLink>
                         </div>
                     </li>

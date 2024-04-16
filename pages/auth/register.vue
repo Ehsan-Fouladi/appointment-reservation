@@ -1,0 +1,82 @@
+<template>
+  <div>
+    <!-- background -->
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+      <defs>
+        <linearGradient id="bg">
+          <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+          <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+          <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+        </linearGradient>
+        <path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+	s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+      </defs>
+      <g>
+        <use xlink:href='#wave' opacity=".3">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="10s" calcMode="spline"
+            values="270 230; -334 180; 270 230" keyTimes="0; .5; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+            repeatCount="indefinite" />
+        </use>
+        <use xlink:href='#wave' opacity=".6">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="8s" calcMode="spline"
+            values="-270 230;243 220;-270 230" keyTimes="0; .6; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+            repeatCount="indefinite" />
+        </use>
+        <use xlink:href='#wave' opacty=".9">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s" calcMode="spline"
+            values="0 230;-140 200;0 230" keyTimes="0; .4; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+            repeatCount="indefinite" />
+        </use>
+      </g>
+    </svg>
+    <!-- background -->
+    <!-- form login -->
+    <div class="flex place-items-center h-screen relative">
+      <div class="absolute w-full lg:w-2/5 h-fit bg-white/90 backdrop-blur shadow-md rounded-lg p-5 right-0 left-0 mx-auto">
+        <div class="flex justify-center items-center">
+          <span class="text-5xl font-bold text-center">ثبت نام</span>
+        </div>
+        <form action="#" method="get" class="mt-10 space-y-5">
+          <div class="flex flex-col">
+            <label for="username" class="font-medium">نام کاربری</label>
+            <input type="text" name="username" placeholder="نام کاربری" class="rounded-lg px-2 py-3 placeholder:text-gray-500 mt-4 font-medium outline-none text-gray-700 focus:scale-105 duration-300 transition-all focus:shadow-yellow-400 focus:shadow-md active:ring">
+          </div>
+          <div class="flex flex-col">
+            <label for="password" class="font-medium">گذرواژه</label>
+            <input type="password" name="password" placeholder="گذرواژه" class="rounded-lg px-2 py-3 placeholder:text-gray-500 mt-4 font-medium outline-none text-gray-700 focus:scale-105 duration-300 transition-all focus:shadow-yellow-400 focus:shadow-md active:ring">
+          </div>
+          <div class="flex flex-col">
+            <label for="password" class="font-medium">تایید گذرواژه</label>
+            <input type="password" name="password" placeholder="تایید گذرواژه" class="rounded-lg px-2 py-3 placeholder:text-gray-500 mt-4 font-medium outline-none text-gray-700 focus:scale-105 duration-300 transition-all focus:shadow-yellow-400 focus:shadow-md active:ring">
+          </div>
+          <div class="mt-5 flex flex-col justify-center items-center w-full space-y-4">
+            <button class="bg-indigo-600 px-2 py-3 rounded-lg text-white w-full text-xl">ثبت نام</button>
+            <NuxtLink to="/auth/register" class="bg-pink-600 px-2 py-3 rounded-lg text-white w-full text-xl text-center">
+              ورود به سایت
+            </NuxtLink>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
+<style scoped>
+svg {
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: #0e4166;
+  background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+}
+</style>
+<script setup>
+definePageMeta({
+  layout: false,
+})
+</script>
