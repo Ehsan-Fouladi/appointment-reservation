@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center items-center relative" v-if="error.statusCode == 404">
-        <div class="bg-center bg-no-repeat bg-cover w-screen h-screen backdrop-blur-md bg-white/50 -z-50 bg-[url('img/blue-background-5.png')]"></div>
+        <div class="bg-center bg-no-repeat bg-cover w-screen h-screen backdrop-blur-md bg-white/50 -z-50 bg-[url('@/assets/background/blue-background-5.png')]"></div>
         <div
             class="w-full lg:w-2/3 h-full lg:h-1/2 lg:min-h-[550px] bg-white/40 lg:bg-white/60 backdrop-blur lg:backdrop-blur-lg absolute rounded-xl flex flex-col items-center justify-around lg:justify-between p-10 overflow-hidden">
             <img src="/img/404.png" alt="404" draggable="false">
@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="flex justify-center items-center relative" v-else>
-        <div class="bg-center bg-no-repeat bg-cover w-screen h-screen backdrop-blur-md bg-white/50 -z-50 bg-[url('img/blue-background-5.png')]"></div>
+        <div class="bg-center bg-no-repeat bg-cover w-screen h-screen backdrop-blur-md bg-white/50 -z-50 bg-[url('@/assets/background/blue-background-5.png')]"></div>
         <div
             class="w-full lg:w-2/3 h-full lg:h-1/2 lg:min-h-[550px] bg-white/40 lg:bg-white/60 backdrop-blur lg:backdrop-blur-lg absolute rounded-xl flex flex-col items-center justify-around lg:justify-between p-10 overflow-hidden">
             <span class="font-medium text-9xl text-indigo-600">{{ error.statusCode }}</span>
