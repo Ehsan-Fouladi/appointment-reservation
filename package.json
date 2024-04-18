@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "push-dir --dir=dist"
+    "deploy": "push-dir --dir=dist --cleanup"
   },
   "dependencies": {
     "nuxt": "^3.11.1",
