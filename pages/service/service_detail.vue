@@ -35,7 +35,7 @@
             </div>
             <div class="w-full lg:w-1/2 h-auto p-2 lg:p-5 flex justify-center items-center">
               <div class="video_player rounded-2xl">
-                <video preload="metadata" class="main-video">
+                <video preload="metadata" class="main-video" autoplay loop muted controls>
                   <source src="/img/video.mp4" size="1080" type="video/mp4">
                   <track label="English" kind="subtitles" src="/How To Get Started With VSCode.vtt" srclang="en">
                   <track label="Fa" kind="subtitles" src="/test.vtt" srclang="fa">
