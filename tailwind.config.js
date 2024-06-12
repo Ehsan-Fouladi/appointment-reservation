@@ -9,7 +9,11 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow:{
+        'full-rounded': '0 1px 6px 0px rgb(0 0 0 / 0.3)',
+      },
+    },
   },
   plugins: [],
 };

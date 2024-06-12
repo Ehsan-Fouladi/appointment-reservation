@@ -29,3 +29,17 @@ html {
 .item .content {
   @apply p-8;
 }
+
+
+body {
+  --sb-size: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-indigo-500;
+  border-radius: 2px;
+}
