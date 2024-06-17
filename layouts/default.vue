@@ -89,6 +89,10 @@
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 ورود
                             </NuxtLink>
+                            <NuxtLink to="/panel" active-class="router-active"
+                                class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
+                                پنل
+                            </NuxtLink>
                         </div>
                     </li>
                 </ul>
@@ -218,6 +222,10 @@
                             <NuxtLink to="/auth/register" active-class="router-active"
                                 class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
                                 ثبت نام
+                            </NuxtLink>
+                            <NuxtLink to="/panel" active-class="router-active"
+                                class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">
+                                پنل
                             </NuxtLink>
                         </div>
                     </li>
